@@ -1,0 +1,25 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "- Consultar documentación https://pokeapi.co/docs/v2.html# - Listar pokemones, y poder cambiar de página - Ver detalles de 1 pokemón, incluyendo al menos 1 foto.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RivarolaNicolas/Pokedex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RivarolaNicolas/Pokedex/issues"
+  },
+  "homepage": "https://github.com/RivarolaNicolas/Pokedex#readme",
+  "devDependencies": {
+    "@types/jquery": "^3.3.35"
+  },
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}
