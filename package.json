@@ -4,7 +4,9 @@
   "description": "- Consultar documentación https://pokeapi.co/docs/v2.html# - Listar pokemones, y poder cambiar de página - Ver detalles de 1 pokemón, incluyendo al menos 1 foto.",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cy:run": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -18,16 +20,17 @@
   "homepage": "https://github.com/RivarolaNicolas/Pokedex#readme",
   "devDependencies": {
     "@types/jquery": "^3.3.35",
-    "eslint": "^7.0.0",
-    "eslint-config-airbnb-base": "^14.1.0",
+    "cypress": "^4.11.0",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-html": "^6.0.2",
-    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-import": "^2.22.0",
     "gulp": "^4.0.2",
     "gulp-postcss": "^8.0.0",
+    "http-server": "^0.12.3",
     "postcss-loader": "^3.0.0"
   },
   "dependencies": {
-    "http-server": "^0.12.1",
     "postcss": "^7.0.27",
     "postcss-cssnext": "^3.1.0",
     "shoelace-css": "^1.0.0-beta24"
