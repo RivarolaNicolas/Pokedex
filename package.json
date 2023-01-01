@@ -28,7 +28,7 @@
     "gulp": "^4.0.2",
     "gulp-postcss": "^8.0.0",
     "http-server": "^0.12.3",
-    "postcss-loader": "^3.0.0"
+    "postcss-loader": "^7.0.2"
   },
   "dependencies": {
     "postcss": "^7.0.27",
